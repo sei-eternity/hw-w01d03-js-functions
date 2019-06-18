@@ -28,23 +28,23 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: Length
+Description: returns the length of a string.
+Example using it: str.length;
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name:search()
+Description: searches for a specifec string inside of a string and returns the first index of it
+Example using it: str.search("Hello");
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name:indexOf()
+Description: returns the index of the first occurance of the string provided
+Example using it: str.indexOf("hi");
 ```
 
 ## [License](LICENSE)
