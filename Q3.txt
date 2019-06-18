@@ -1,0 +1,22 @@
+Method 1
+
+Name: The length property
+Description:returns the length of a string
+Example using it:   var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+                    var sln = txt.length;
+
+
+Method 2
+
+Name:The indexOf() method
+Description:returns the index of (the position of) the first occurrence of a specified text in a string:
+Example using it:   var str = "Please locate where 'locate' occurs!";
+                    var pos = str.indexOf("locate");
+
+
+Method 3
+
+Name:The lastIndexOf() method
+Description:returns the index of the last occurrence of a specified text in a string:
+Example using it:   var str = "Please locate where 'locate' occurs!";
+                    var pos = str.lastIndexOf("locate");
