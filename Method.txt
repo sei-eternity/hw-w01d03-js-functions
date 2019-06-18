@@ -1,0 +1,40 @@
+Method 1
+
+Name: String Length
+Description: This Method will return the length of a string.
+Example using it: we can use this method to validate the length of a password,
+ we can set conditions the password length to be > 8 or whatever we want it.
+
+let a = "ASDF";
+let l = a.length;
+console.log(l);
+it will return 4
+-----------------
+if (a.length >= 8){
+    //Do this
+}else {
+    // Do this
+}
+=========================
+Method 2
+
+Name: Searching for a String in a String
+Description:This method returns the position of the first occurrence of a specified text in a string.
+Example using it:
+const string = "Usman is a great teacher!";
+let position = string.search("great");
+console.log(position);
+it will return 11
+===========================
+Method 3
+
+Name: Converting a String to an Array
+Description: Any string can be converted to an array with the split() method.
+Example using it:
+
+let string = "Mansour , Ali , Ahmed , Abdul"; 
+let stringArray = string.split(","); 
+         
+console.log(stringArray[1])
+
+it will show Ali.
