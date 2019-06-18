@@ -28,23 +28,29 @@
 
 Method 1
 ```
-Name:
-Description:
+Name: search()
+Description: The search() method searches a string for a specified value and returns the position of the match.
 Example using it:
+var str = "Please locate where 'locate' occurs!";
+var pos = str.search("locate");
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name: lastIndexOf()
+Description: The lastIndexOf() methods searches backwards (from the end to the beginning), meaning: if the second parameter is 15, the search starts at position 15, and searches to the beginning of the string.
 Example using it:
+var str = "Please locate where 'locate' occurs!";
+var pos = str.lastIndexOf("locate", 15);
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name: length()
+Description: The length property returns the length of a string.
 Example using it:
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var sln = txt.length;
 ```
 
 ## [License](LICENSE)
