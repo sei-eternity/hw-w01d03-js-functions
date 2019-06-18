@@ -1,0 +1,34 @@
+
+Method 1:
+
+Name:length property
+Description: returns and count the length 
+Example using it: 
+let word1="hello ";
+let word2="hi ";
+console.log(word1.length);//count the length 
+if(word1.length==word2.length){
+  console.log("the same length")
+}
+else{  console.log("not the same length")}//to compare the length
+
+Method 2:
+
+
+Name: replace property
+Description: it replace the origin word witg the new one
+Example using it: 
+
+let name=prompt ("Enter your name : ");
+let str = "My name is Ashwag";
+ console.log(str.replace("Ashwag", name));
+
+Method 3:
+
+
+Name: Upper Case property
+Description: it makes the letter of the word Upper Case letter
+Example using it:
+let name=prompt ("Enter any word : ");
+
+ console.log(name.toUpperCase());
