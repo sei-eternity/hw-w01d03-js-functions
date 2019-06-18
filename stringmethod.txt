@@ -1,0 +1,25 @@
+Method 1: String Length
+Name: .length
+Description:
+It will returns the length of a string.
+Example using it:
+let stringLength =  "Sara" ;
+console.log(stringLength.length); 
+
+
+Method 2: Replacing String Content
+Name: replace()
+Description: 
+This will replaces a specified value with another value in a string.
+Example using it:
+let replaceSentence = 'I have two Dog ';
+console.log(replaceSentence.replace('Dog', 'Cat'));
+
+
+Method 3:Converting to Upper Case
+Name: toUpperCase()
+Description: 
+This will convert the string to upper case.
+Example using it:
+let sentence = 'I have two cats shamshoun and marengo ';
+console.log(sentence.toUpperCase());
