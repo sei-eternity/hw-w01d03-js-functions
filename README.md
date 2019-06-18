@@ -26,25 +26,35 @@
 
 3.  Research 3 string methods and describe what they are used for and how to use them.  You can find string methods here https://www.w3schools.com/js/js_string_methods.asp
 
-Method 1
+Method 1 Replacing String Content
 ```
-Name:
+Name: replace()
 Description:
+replaces a specified value with another value in a string
 Example using it:
+str = “I like red color";
+var n = str.replace("red", "white");
 ```
 
-Method 2
+Method 2 Join strings
 ```
-Name:
-Description:
+Name: concat()
+Description: joins two or more strings
 Example using it:
+var text1 = “I'm”;
+var text2 = “happy";
+var text3 = text1.concat(" ", text2);
 ```
 
-Method 3
+Method 3 Finding a String in a String
 ```
-Name:
+Name: indexOf()
 Description:
+“returns the index of (the position of) the first occurrence of a specified text in a string”
+
 Example using it:
+var str = “Can you find me!";
+var pos = str.indexOf(“you");
 ```
 
 ## [License](LICENSE)
