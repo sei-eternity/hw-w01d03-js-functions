@@ -1,0 +1,33 @@
+Method 1
+
+Name: length
+Description:returns the length of a string
+Example using it: 
+
+let x="wetirtier";
+console.log(x.length);
+
+
+
+Method 2
+
+Name: indexOf()
+Description: method returns the index within the calling 
+String object of the last occurrence of the specified value
+Example using it:
+
+z= "i did it my homework .."
+
+let search= "my";
+
+console.log(`the index of the first "`+ search + `  " is ` + z.lastIndexOf(search));
+
+
+Method 3
+
+Name: indexOf()
+Description: return -1 if the text is not found
+Example using it: let x = 
+"welcome to GA";
+let z = x.indexOf ("moodhi");
+console.log(z);
