@@ -28,23 +28,29 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: length
+Description: The length property returns the length of a String.
+Example using it: 
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+console.log(txt.length);
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name: indexOf()
+Description: The indexOf() method returns the index of (the position of) the first occurrence of a specified text in a string.
 Example using it:
+var str = "Please locate where 'locate' occurs!";
+var pos = str.indexOf("locate");
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name: replace()
+Description: The replace() method replaces a specified value with another value in a string.
 Example using it:
+str = "Please visit Microsoft!";
+var n = str.replace("Microsoft", "W3Schools");
 ```
 
 ## [License](LICENSE)
