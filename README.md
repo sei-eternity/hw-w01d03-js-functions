@@ -26,25 +26,25 @@
 
 3.  Research 3 string methods and describe what they are used for and how to use them.  You can find string methods here https://www.w3schools.com/js/js_string_methods.asp
 
-Method 1
+indexOf()
 ```
-Name:
-Description:
-Example using it:
-```
-
-Method 2
-```
-Name:
-Description:
-Example using it:
+Name: indexof
+Description: returns the index of the first occurance of a specified text in a string
+Example using it: 'Hello, world'.indexOf('wrold');
 ```
 
-Method 3
+slice()
 ```
-Name:
-Description:
-Example using it:
+Name: slice
+Description: extracts a part of a string and returns the extracted part in a new string. It takes two parameters: the start position and the end position.
+Example using it: 'Hello, world'.slice(7,12);
+```
+
+replace()
+```
+Name: replace
+Description: replaces a specified value with another value in a string
+Example using it: 'hello world'.('world', 'students');
 ```
 
 ## [License](LICENSE)
