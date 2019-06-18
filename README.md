@@ -28,23 +28,32 @@
 
 Method 1
 ```
-Name:
-Description:
+Name: indexOf()
+Description: it gets the index location of specific word in a string
 Example using it:
+var str = "Please locate where 'locate' occurs!";
+var pos = str.indexOf("wh");
+it returns 14
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name: length
+Description: it calculate the number of letter in a string
 Example using it:
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo").innerHTML = txt.length;
+14
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name: slice()
+Description:it is to extract a part of a string
 Example using it:
+var str = "Apple, Banana, Kiwi";
+var res = str.slice(7,13);
+Banana
 ```
 
 ## [License](LICENSE)
