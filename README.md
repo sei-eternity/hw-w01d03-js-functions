@@ -28,23 +28,31 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: search()
+Description: This method searches and Locates a specified value 
+Example using it: 
+const Medterm ="............." a long list of names and grades 
+const findMe = Medterm.search("Eman Yahya");
+
+
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name: replace()
+Description:method replaces a specified value with another value in a string can be Useful to fix a misspelled words.
 Example using it:
+let bio = "My name is Eman, I'm from Abhaa... Abhaa's weather is very nice ....";
+let correction = bio.replace("Abhaa", "Abha");
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name: toLowerCase()
+Description: to converte a string to lower case 
 Example using it:
+let bio ="HELLO, MY NAME IS EMAN"
+let bioLC= bio.toLowerCase(); 
 ```
 
 ## [License](LICENSE)
