@@ -28,23 +28,26 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: replace()
+Description: method that replace specified value with another in the string.
+Example using it: let str = "Hello Ali";
+                  str = str.replace('Ali', 'Hazim'); // str will be 'Hello Hazim'
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name: toUpperCase()
+Description: convert the string to upper case
+Example using it: let str = "good morning";
+                  str = str.toUpperCase(); // str will be 'GOOD MORNING'
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name: charAt()
+Description: method that return the character at a specified index in a string.
+Example using it: let str = 'Hello world';
+                  str.charAt(2);   // returns e
 ```
 
 ## [License](LICENSE)
