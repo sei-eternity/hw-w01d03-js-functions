@@ -1,0 +1,26 @@
+- Method 1
+
+Nmae: Length ()
+Description: return the lenght of the string.
+
+Example using it: let txt ="NorahALessa" 
+                let numOfString =txt.length;
+                //11
+- Method 2
+
+Nmae: Search()
+Description: returns the position of the first occurrence 
+of a specified text in a string.
+
+Example using it: let txt = "Hi Norah ALessa ";
+                  let test = txt.search("Norah");
+                // 3
+- Method 3
+
+Nmae: indexOf()
+Description:method returns the position of 
+the first occurrence of a specified text.
+
+Example using it: let txt = "Hi Norah ALessa ";
+                  let test = txt.indexOf("Norah");
+                // 3
