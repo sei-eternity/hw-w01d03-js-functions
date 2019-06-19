@@ -1,0 +1,20 @@
+Method 1
+
+Name:indexOf()method
+Description: the method returns the index of the first occurrence of a specified text in a string
+Example using it: var str = "Please Locate where 'locate' occurs!"
+var pos = str.indexOf("locate")
+
+
+Method 2
+
+Name:The search() method
+Description: searches a string for a specified value and return the position of the match
+Example using it: Var pos = str.search("locate")
+
+
+Method 3
+
+Name: slice () method
+Description: extracts a part of a string and returns the extracted part in a new string
+Example using it: var res = str.slice(7,13)
